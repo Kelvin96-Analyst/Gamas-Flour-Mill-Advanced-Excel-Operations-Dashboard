@@ -1,9 +1,9 @@
 # Gamas Flour Mill – Advanced Excel Operations Dashboard
 
-## 📌 Project Title
+## Project Title
 **Advanced Excel Daily Operations Dashboard for Gamas Flour Mill**
 
-## 🏭 Company Context (Adapted)
+## Company Context
 Gamas Flour Mill is a high-capacity flour manufacturing operation processing multiple wheat grades for bread flour, confectionery flour, and semolina. Operations are driven by two milling lines:
 
 - **Mill A – Primary Production Line**: High-volume, continuous operation supplying bulk flour demand.
@@ -13,7 +13,16 @@ This project simulates real operational data and demonstrates how Excel can be u
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
+This portfolio project demonstrates the design and implementation of a fully dynamic Excel based operations dashboard for Gamas Flour Mill manufacturing facility producing 800–1,000 tons of flour per day.
+
+Using real world inspired daily production data from two parallel milling lines (Mill A and Mill B), this project applies advanced Excel formulas (SUMIFS, AVERAGEIFS, COUNTIFS, RANK.AVG, INDEX/MATCH, dynamic thresholds, conditional formatting, slicers, and PivotCharts) to deliver actionable Key Performance Indicators (KPIs) that flour mill managers, production supervisors, and maintenance teams rely on every day.
+
+The goal is to enable instant visibility into production performance, mill utilization, downtime causes, maintenance costs, and wheat type efficiency, ultimately supporting faster decision making, preventive maintenance scheduling, and continuous improvement of Overall Equipment Effectiveness (OEE) in a highly competitive flour industry.
+
+
+
+
 To design a **dynamic, interactive Excel dashboard** that provides daily visibility into:
 
 - Flour output performance
@@ -26,7 +35,7 @@ The dashboard supports **data-driven decision-making** to improve Overall Equipm
 
 ---
 
-## 🧠 Skills & Tools Demonstrated
+## Skills & Tools Demonstrated
 - Advanced Microsoft Excel
 - Manufacturing KPI Analysis
 - Operations & OEE Concepts
@@ -34,23 +43,26 @@ The dashboard supports **data-driven decision-making** to improve Overall Equipm
 - Data Validation & Integrity Controls
 
 ### Excel Functions Used
-`SUMIFS` | `AVERAGEIFS` | `COUNTIFS` | `MAXIFS` | `INDEX/MATCH` | `RANK.AVG` | Logical IF Statements | Conditional Formatting | PivotTables | Slicers
+`SUMIFS` | `AVERAGEIFS` | `COUNTIFS` | `MAXIFS` | `INDEX/MATCH` | `RANK.AVG` | `Logical IF Statements` | `Conditional Formatting` | `PivotTables` | `Slicers`
 
 ---
 
-## 📊 Dataset Overview
-**Period:** July 1 – July 8, 2025  
-**Source:** Simulated daily production log (realistic for Nigerian flour milling operations)
+## Dataset Overview
+**Period:** July 1 – July 8, 2025 
 
 | Field | Description |
 |------|------------|
 | Date | Production day |
-| Mill Line | Mill A or Mill B |
-| Wheat Type | Hard Red, Soft White, Durum |
+| Mill Line | Physical milling unit (Mill A or Mill B) |
+| Wheat Type | Grade of wheat being processed (Hard Red, Soft White, Durum) |
 | Status | Operational / Delayed / Failed |
 | Daily Flour Output (Tons) | Finished flour produced |
 | Mill Utilization (%) | Capacity utilization |
-| Daily Maintenance Cost (₦ equivalent) | Maintenance spend |
+| Daily Maintenance Cost ($ equivalent) | Maintenance spend |
+
+##Sample Dataset
+The dataset represents 8 days of operations in July 2023 for Gamas flour mill with two lines processing different wheat types.
+
 
 ---
 
@@ -90,25 +102,7 @@ The dashboard supports **data-driven decision-making** to improve Overall Equipm
 - Supports cost-per-ton optimization
 - Scales easily to monthly and annual reporting
 
----
 
-## 🚀 Recommendations for Expansion
-- Add **Flour Extraction Rate (%)** for yield analysis
-- Introduce **Shift-Level Data** (Day/Night)
-- Integrate **Power BI** for real-time plant screens
-- Automate alerts via Power Automate or email macros
-- Connect ERP / SAP PP-MM production data
-
----
-
-## 📂 Repository Structure
-```
-Gamas-Flour-Mill-Excel-Dashboard/
-│── data/
-│   └── Daily_Production_Data.xlsx
-│── dashboard/
-│   └── Gamas_Flour_Mill_Operations_Dashboard.xlsx
-│── README.md
 ```
 
 ---
@@ -119,14 +113,4 @@ Data Analyst | Manufacturing & Operations Analytics
 Excel • Power BI • SQL • SAP PP/MM
 
 ---
-
-## 📥 How to Use
-1. Download the Excel dashboard file
-2. Open in Microsoft Excel (2019 or later)
-3. Enable editing and slicers
-4. Use filters to explore performance insights
-
----
-
-⭐ *This project is designed for Data Analyst, Operations Analyst, and Manufacturing Analytics roles.*
 
